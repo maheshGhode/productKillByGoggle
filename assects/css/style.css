@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+}
+
+.header{
+    padding: 20px;
+    background-color: #ddd;
+}
+
+.image{
+    text-align: center;
+    width: 100%;
+}
+
+.img{
+    object-fit: cover;
+    width: 15%;
+    background-color: #ddd;
+    margin-bottom: 25px;
+}
+
+.heading{
+    font-size: 50px;
+    padding: 0 20px;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.section-title{
+    padding: 0 30px;
+}
+.img-heading{
+    display: inline-block;
+    font-size: 45px;
+}
+
+.img-goggle{
+    width: 10%;
+    margin-left: 10px;
+}
+
+span{
+    font-size: 45px;
+}
+.container{
+    background-color: #ccc;
+    padding: 20px;
+}
+
+.card{
+    height: 250px;
+    width: 250px;
+    transition: all .3s .1s ease-in-out;
+}
+
+.main-tittle h1{
+    font-size: 15px;
+    position: absolute;
+    color: #fff;
+    right: 2px;
+    top: 2px;
+    padding: 5px;
+    counter-reset: #fff;
+}
+
+.name{
+    margin-top: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.description{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 11px;
+    margin-bottom: 55px;
+}
+
+.btn{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.duration{
+    font-size: 11px;
+    margin-top: 15px;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.green{
+    background-color: green;
+}
+
+.card:hover{
+    transform: translate(-2px) scale(1.1);
+}
